@@ -13,19 +13,21 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "pestphp/pest": "^2.0.0",
-        "pestphp/pest-plugin": "^2.0.0"
+        "drupal/core": "^10.0",
+        "pestphp/pest": "^1.22.1",
+        "pestphp/pest-plugin": "^1.1.0",
+        "webflo/drupal-finder": "^1.2"
     },
     "autoload": {
         "psr-4": {
-            "Pest\\PluginName\\": "src/"
+            "Pest\\Drupal\\": "src/"
         },
         "files": [
             "src/Autoload.php"
         ]
     },
     "require-dev": {
-        "pestphp/pest-dev-tools": "^2.0.0"
+        "pestphp/pest-dev-tools": "^1.0.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

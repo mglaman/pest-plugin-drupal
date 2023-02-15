@@ -1,5 +1,8 @@
 This repository contains the Pest Plugin for Drupal.
 
+**NOTE** Leveraging existing PHPUnit test case base classes (beyond UnitTestCase) is not possible due to Drupal defaulting
+to test isolation. For contex see https://github.com/pestphp/pest/issues/665 and https://github.com/pestphp/pest/issues/618.
+
 > If you want to start testing your application with Pest, visit the main **[Pest Repository](https://github.com/pestphp/pest)**.
 
 - Explore the docs: **[pestphp.com/docs/plugins/creating-plugins »](https://pestphp.com/docs/plugins/creating-plugins)**
