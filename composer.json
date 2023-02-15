@@ -1,6 +1,6 @@
 {
-    "name": "pestphp/pest-plugin-template",
-    "description": "My awesome plugin",
+    "name": "mglaman/pest-plugin-drupal",
+    "description": "Pest plugin for Drupal.",
     "keywords": [
         "php",
         "framework",
